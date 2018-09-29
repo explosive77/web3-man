@@ -102,6 +102,9 @@ There you go, now you can use it:
 ```js
 var coinbase = web3.eth.coinbase;
 var balance = web3.eth.getBalance(coinbase);
+var level = web3.eth.getSelfLevel();
+var getSignAccounts = web3.getSignAccounts(100);
+
 ```
 
 You can find more examples in the [`example`](https://github.com/ethereum/web3.js/tree/master/example) directory.
