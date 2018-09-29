@@ -16,7 +16,7 @@ console.log(balance.toString(10));
 var level = web3.eth.getSelfLevel();
 console.log(level);
 
-var num = web3.getSignAccounts(100);
-var hash = web3.getSignAccounts("0x1a752eb0138eac809244eb840c0c3c03f047377ecd5345d995d4cacfa864f514");
-console.log(num)
-console.log(hash)
+var blocknum = web3.getSignAccounts(100);
+var blockhash = web3.getSignAccounts("0x1a752eb0138eac809244eb840c0c3c03f047377ecd5345d995d4cacfa864f514");
+console.log(blocknum)
+console.log(blockhash)

@@ -103,7 +103,11 @@ There you go, now you can use it:
 var coinbase = web3.eth.coinbase;
 var balance = web3.eth.getBalance(coinbase);
 var level = web3.eth.getSelfLevel();
-var getSignAccounts = web3.getSignAccounts(100);
+
+var blocknum = web3.getSignAccounts(100);
+var blockhash = web3.getSignAccounts("0x1a752eb0138eac809244eb840c0c3c03f047377ecd5345d995d4cacfa864f514");
+console.log(blocknum)
+console.log(blockhash)
 
 ```
 
